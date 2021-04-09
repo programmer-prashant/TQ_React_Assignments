@@ -1,12 +1,13 @@
 import './App.css';
+// *************************************************** React Hooks ********************************************
 import ComponentP from './hooks/useContext_useCallback/ComponentP';
 import { UserProvider } from './hooks/useContext_useCallback/ContextDemo';
 import ConditionalDemo from './hooks/useState_useEffect/ConditionalDemo';
-// *************************************************** React Hooks ********************************************
-
 import HoockCounterDemo from './hooks/useState_useEffect/HoockCounterDemo';
 import HookFormDemo from './hooks/useState_useEffect/HookFormDemo';
 import UseEffectHookDemo from './hooks/useState_useEffect/UseEffectHookDemo';
+import UseState_array from './hooks/useState_useEffect/UseState_array';
+import UseState_object from './hooks/useState_useEffect/useState_object';
 import Main from './routing/Main';
 
 // ************************************************** Core React ********************************************
@@ -97,7 +98,8 @@ function App() {
 			<GETRequest />
 			*/}
 			{/* *******************************************React Hooks************************************* */}
-			{/* <HoockCounterDemo />
+			{/* 
+
 			<HookFormDemo />
 			<UseEffectHookDemo />
 			<ConditionalDemo /> 
@@ -105,8 +107,10 @@ function App() {
 			<UserProvider value={'Red'}>
 				<ComponentP />
 			</UserProvider>
+			<UseState_array />
+			<UseState_object />
+			<HoockCounterDemo />
 			*/}
-
 			<Main />
 		</div>
 	);

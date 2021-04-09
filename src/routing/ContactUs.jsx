@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ContactUs(props) {
-    const onclickhandler=()=>{
-        props.history.push('/')
-    }
-    return (
-        <div>
-            <h1> contact us page </h1>
-            <button onClick={onclickhandler}> navigate</button>
-        </div>
-    )
+	return (
+		<div>
+			<h1> contact us page </h1>
+			<Link to='/' className='btn btn-warning'>
+				navigate
+			</Link>
+		</div>
+	);
 }
 
-export default ContactUs
+export default ContactUs;
